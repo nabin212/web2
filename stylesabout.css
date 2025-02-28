@@ -1,0 +1,405 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav2{
+   
+    .group {
+        display: flex;
+        line-height: 28px;
+        align-items: center;
+        position: absolute;  /* Change from relative to absolute */
+        top: 0;  /* Position to top */
+        right: 0;  /* Position to right */
+        max-width: 190px;
+        margin-right: 20px;
+        margin-top: 10px;
+      }
+      
+  .input {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 45px;
+    padding-left: 2.5rem;
+    box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+    border: 0;
+    border-radius: 12px;
+    background-color: #16171d;
+    outline: none;
+    color: #bdbecb;
+    transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: text;
+    z-index: 0;
+  }
+  
+  .input::placeholder {
+    color: #bdbecb;
+  }
+  
+  .input:hover {
+    box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+  }
+  
+  .input:active {
+    transform: scale(0.95);
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 0 2.5px #2f303d;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    fill: #bdbecb;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+}
+
+
+
+
+
+        /* Logo styles */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            margin-top: -40px;
+            
+        }
+
+        .logo {
+            width: 40px; /* Adjust size as needed */
+            height: 40px;
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover;
+            align-self: start;
+        }
+
+
+
+/* about */ 
+body0 {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  height: 10vh;
+  margin: 20px;
+    background: #f4f4f4 /* Optional background */
+}
+.card {
+    width: 17em;
+    height: 22.5em;
+    top: 7.5%; /* Adjust this value for vertical positioning */
+  left: 40%;
+  transform: translateX(50%);
+  transform: translateY(20%);
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+
+/* about 2 */ 
+
+body1 {
+  display: flex;
+  justify-content:center;
+  align-items: top;
+  height: 10vh;
+  margin-right: 800px;
+  
+    background: #f4f4f4 /* Optional background */
+}
+.card1 {
+  width: 17em;
+  height: 22.5em;
+  top: 10.5%; /* Adjust this value for vertical positioning */
+left: 40%;
+transform: translateX(-30%);
+transform: translateY(-10%);
+  background: #171717;
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card1 span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.card1 .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+}
+
+.card1 .img {
+  width: 4.8em;
+  height: 4.8em;
+  background-image: url('https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/376725984_983491889577529_7606794005921143138_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oSeMTQSKSLAQ7kNvgERqgqR&_nc_zt=23&_nc_ht=scontent.fktm8-1.fna&_nc_gid=ADt41EgYUCjpdZw5I9929fR&oh=00_AYCptzoyIuUqhc9PLsE_taN64pABFaRbktNOXG2dJYYBpg&oe=6779F29C ');
+  background-size: cover;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card1 .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card1 a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.card1 a:hover {
+  color: red;
+}
+
+.card1 button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+
+.card1 button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
+footer {
+        position: fixed; 
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0; 
+        background-color: #333; /* Optional background color */
+        text-align: center; /* Center align footer content */
+        z-index: 1000; /* Ensures it stays on top of other elements */
+      }
+      
+      .social-login-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Centers icons horizontally */
+        gap: 30px; /* Adjusted gap between icons */
+        -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
+      }
+      
+      .social-login-icons svg {
+        width: 40px;
+      }
+      
+      .social-icon-1,
+      .social-icon-1-1,
+      .social-icon-2,
+      .social-icon-2-2,
+      .social-icon-3,
+      .social-icon-3-3,
+      .social-icon-4,
+      .social-icon-4-4 {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        margin: 20px 0 0px 0;
+      }
+      
+      .icon svg {
+        fill: #111;
+      }
+      
+      .socialcontainer {
+        height: 80px;
+        overflow: hidden;
+      }
+      
+      .social-icon-1 {
+        transition-duration: 0.4s;
+        background-color: rgb(0, 0, 0);
+        transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+      }
+      
+      .social-icon-1 svg,
+      .social-icon-2 svg,
+      .social-icon-3 svg,
+      .social-icon-4 svg {
+        opacity: 0;
+        transition-duration: 0.5s;
+        transition-delay: 0.2s;
+      }
+      
+      .social-icon-2 {
+        transition-duration: 0.4s;
+        transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+        background: linear-gradient(
+          72.44deg,
+          #ff7a00 11.92%,
+          #ff0169 51.56%,
+          #d300c5 85.69%
+        );
+      }
+      
+      .social-icon-3 {
+        transition-duration: 0.4s;
+        transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+        background: #316ff6;
+      }
+      
+      .social-icon-4 {
+        transition-duration: 0.4s;
+        transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+        background: linear-gradient(
+          180deg,
+          rgba(129, 34, 144, 1) 0%,
+          rgba(77, 34, 124, 1) 91%
+        );
+      }
+      
+      /* Hover state for social container */
+      .socialcontainer:hover .social-icon-1 {
+        transform: translateY(-70px);
+      }
+      
+      .socialcontainer:hover .social-icon-1 svg,
+      .socialcontainer:hover .social-icon-2 svg,
+      .socialcontainer:hover .social-icon-3 svg,
+      .socialcontainer:hover .social-icon-4 svg {
+        opacity: 1;
+      }
+      
+      .socialcontainer:hover .social-icon-2 {
+        transform: translateY(-70px);
+      }
+      
+      .socialcontainer:hover .social-icon-3 {
+        transform: translateY(-70px);
+      }
+      
+      .socialcontainer:hover .social-icon-4 {
+        transform: translateY(-70px);
+      }
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}

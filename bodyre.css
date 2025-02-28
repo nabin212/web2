@@ -1,0 +1,290 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav2{
+ 
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: absolute;  /* Change from relative to absolute */
+  top: 0;  /* Position to top */
+  right: 0;  /* Position to right */
+  max-width: 190px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+    
+.input {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 45px;
+  padding-left: 2.5rem;
+  box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+  border: 0;
+  border-radius: 12px;
+  background-color: #16171d;
+  outline: none;
+  color: #bdbecb;
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: text;
+  z-index: 0;
+}
+
+.input::placeholder {
+  color: #bdbecb;
+}
+
+.input:hover {
+  box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2.5px #2f303d;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  fill: #bdbecb;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+}
+/* Logo styles */
+.logo-container {
+display: flex;
+align-items: center;
+margin: 20px;
+margin-top: -40px;
+
+}
+
+.logo {
+width: 40px; /* Adjust size as needed */
+height: 40px;
+border-radius: 50%; /* Makes the image circular */
+object-fit: cover;
+align-self: start;
+}
+
+.hero {
+  background-image: url('path-to-your-hero-image.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.hero-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin: 20px 0;
+}
+
+/*login page */
+
+
+
+
+
+
+
+
+footer {
+      position: fixed; /* Fixes the footer at the bottom of the viewport */
+      bottom: 0;
+      width: 100%;
+      padding: 20px 0; /* Adjust the padding for the footer */
+      background-color: #f4f4f4; /* Optional background color */
+      text-align: center; /* Center align footer content */
+      z-index: 1000; /* Ensures it stays on top of other elements */
+    }
+    
+    .social-login-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Centers icons horizontally */
+      gap: 30px; /* Adjusted gap between icons */
+      -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
+    }
+    
+    .social-login-icons svg {
+      width: 40px;
+    }
+    
+    .social-icon-1,
+    .social-icon-1-1,
+    .social-icon-2,
+    .social-icon-2-2,
+    .social-icon-3,
+    .social-icon-3-3,
+    .social-icon-4,
+    .social-icon-4-4 {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      margin: 20px 0 0px 0;
+    }
+    
+    .icon svg {
+      fill: #111;
+    }
+    
+    .socialcontainer {
+      height: 80px;
+      overflow: hidden;
+    }
+    
+    .social-icon-1 {
+      transition-duration: 0.4s;
+      background-color: rgb(0, 0, 0);
+      transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    }
+    
+    .social-icon-1 svg,
+    .social-icon-2 svg,
+    .social-icon-3 svg,
+    .social-icon-4 svg {
+      opacity: 0;
+      transition-duration: 0.5s;
+      transition-delay: 0.2s;
+    }
+    
+    .social-icon-2 {
+      transition-duration: 0.4s;
+      transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+      background: linear-gradient(
+        72.44deg,
+        #ff7a00 11.92%,
+        #ff0169 51.56%,
+        #d300c5 85.69%
+      );
+    }
+    
+    .social-icon-3 {
+      transition-duration: 0.4s;
+      transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+      background: #316ff6;
+    }
+    
+    .social-icon-4 {
+      transition-duration: 0.4s;
+      transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+      background: linear-gradient(
+        180deg,
+        rgba(129, 34, 144, 1) 0%,
+        rgba(77, 34, 124, 1) 91%
+      );
+    }
+    
+    /* Hover state for social container */
+    .socialcontainer:hover .social-icon-1 {
+      transform: translateY(-70px);
+    }
+    
+    .socialcontainer:hover .social-icon-1 svg,
+    .socialcontainer:hover .social-icon-2 svg,
+    .socialcontainer:hover .social-icon-3 svg,
+    .socialcontainer:hover .social-icon-4 svg {
+      opacity: 1;
+    }
+    
+    .socialcontainer:hover .social-icon-2 {
+      transform: translateY(-70px);
+    }
+    
+    .socialcontainer:hover .social-icon-3 {
+      transform: translateY(-70px);
+    }
+    
+    .socialcontainer:hover .social-icon-4 {
+      transform: translateY(-70px);
+    }
+
+
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+
+
+      /* Logo styles */
+      .logo-container {
+          display: flex;
+          align-items: center;
+      }
+
+      .logo {
+          width: 40px; /* Adjust size as needed */
+          height: 40px;
+          border-radius: 50%; /* Makes the image circular */
+          object-fit: cover;
+      }
+
+
+
+
+
+
+
